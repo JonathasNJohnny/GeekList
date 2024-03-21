@@ -1,5 +1,5 @@
 create table Usuario(
-	id integer primary key,
+	id serial primary key,
 	nome varchar(200),
 	sobrenome varchar(200),
 	email varchar(100),
