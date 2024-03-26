@@ -1,0 +1,46 @@
+body {
+    background-color: #4681bb;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 1, 1, 0.1);
+}
+
+.login-text {
+    text-align: center;
+}
+
+.btn-dark {
+    width: 50%;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 50px auto 0 auto;
+    margin-left: 33%;
+}
+
+.text-capitalize {
+    text-align: center;
+}
+
+.linkCadastro {
+    display: inline-block;
+    color: #283037;
+}
+
+.linkCadastro:hover {
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+}

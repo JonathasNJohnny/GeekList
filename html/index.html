@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Geeklist</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <title>Geeklist</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <h2 class="login-text">Login</h2>
+        <label for="inputEmail3" class="col-sm-2 control-label">Nome</label>
+        <div class="col-sm-10">
+          <input
+            name="Nome"
+            type="Nome"
+            id="inputNome3"
+            class="form-control"
+            placeholder="Nome"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
+        <div class="col-sm-10">
+          <input
+            name="password"
+            type="password"
+            id="inputPassword3"
+            class="form-control"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button name="login" type="button" class="btn btn-dark">Entrar</button>
+        </div>
+      </div>
+    </form>
+    <p class="text-capitalize">Não possui cadastro?</p>
+    <p class="text-center">
+      <a href="#" class="linkCadastro">Registre-se aqui</a>
+    </p>
+  </div>
+</div>
+
+</body>
 </html>
