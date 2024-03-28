@@ -1,4 +1,3 @@
 # GeekList
 
-futura descrição
-futura descrição 2
+PENDENTE
