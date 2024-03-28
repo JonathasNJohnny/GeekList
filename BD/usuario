@@ -1,7 +1,0 @@
-create table Usuario(
-	id serial primary key,
-	nome varchar(200),
-	sobrenome varchar(200),
-	email varchar(100),
-	type boolean DEFAULT false
-)
