@@ -1,4 +1,5 @@
-import LoginSignup from '../components/login_signup/LoginSignup.jsx'
+import LoginSignup from '../components/LoginSignup/LoginSignup.jsx'
+import Welcome from '../components/Welcome/Welcome.jsx'
 function App() {
   return (
     
