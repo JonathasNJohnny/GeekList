@@ -1,0 +1,19 @@
+create table Usuario(
+	id serial primary key,
+	nome varchar(200),
+	sobrenome varchar(200),
+	email varchar(100),
+	type boolean DEFAULT false
+)
+
+-- Dropa a tabela se ela existir
+DROP TABLE IF EXISTS Usuario;
+
+-- Cria a tabela se ela não existir
+CREATE TABLE IF NOT EXISTS Usuario (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(200),
+    password VARCHAR(200),
+    email VARCHAR(100),
+    useradm BOOLEAN DEFAULT false
+);
